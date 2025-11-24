@@ -40,6 +40,10 @@ const Index = () => {
             Just like sorting construction projects by type, size, or complexity, machine learning algorithms 
             can automatically classify data points into predefined groups.
           </p>
+          <p className="text-lg text-muted-foreground/80 max-w-2xl mx-auto">
+            Try our interactive demo with <strong>4 different classification problems</strong>: 
+            Iris Flowers 🌸, Wine Types 🍷, Fruits 🍎, and Animals 🐾
+          </p>
           <div className="flex gap-4 justify-center pt-4">
             <Button asChild size="lg" className="shadow-soft">
               <NavLink to="/iris-demo">

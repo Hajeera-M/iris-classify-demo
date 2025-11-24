@@ -24,7 +24,7 @@ const Navbar = () => {
               className="text-foreground hover:text-primary transition-colors font-medium"
               activeClassName="text-primary"
             >
-              Iris Demo
+              Demo
             </NavLink>
             <NavLink
               to="/about"
